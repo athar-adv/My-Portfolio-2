@@ -11,13 +11,13 @@ export const siteConfig = {
   },
   aboutMe:
     `
-    I am mostly a game developer, making small projects with intent on quality and performance.
-    I design my products to run as well on most devices as possible, because i know the feeling when a product doesnt work well! :V
-    However, you will also see me doing other kinds of projects such as language design, websites, applications and even tooling.
-
-    I have alot of open source work, particularly on Roblox, that have a ton of users!
-
-    I have 3 years of experience of being a developer (in general), starting in around early 2023.
+    I am mostly a game developer, making small projects with intent on quality and performance.\n
+    I design my products to run as well on most devices as possible, because i know the feeling when a product doesnt work well! :V\n
+    However, you will also see me doing other kinds of projects such as language design, websites, applications and even tooling.\n
+    \n
+    I have alot of open source work, particularly on Roblox, that have a ton of users!\n
+    \n
+    I have 3 years of experience of being a developer (in general), starting in around early 2023.\n
     I hope to improve more in the coming years!
     `,
   skills: ["Luau", "Typescript", "Rust", "C++", "Node.js", "Godot", "Roblox", "VSC"],

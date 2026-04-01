@@ -89,6 +89,23 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               ></path></svg
             >
           </a>
+          <a
+            href={siteConfig.social.youtube}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Youtube"
+            class="text-gray-600 transition-colors duration-300 hover:text-[var(--accent-color)]"
+            style={`--accent-color: ${siteConfig.accentColor}`}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              class="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8"
+            >
+              <rect x="1" y="4" width="22" height="16" rx="4" ry="4" fill="currentColor"/>
+              <polygon points="10,9 10,15 15,12" fill="white"/>
+            </svg>
+          </a>
         </div>
       </div>
 

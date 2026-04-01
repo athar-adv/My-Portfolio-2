@@ -7,6 +7,7 @@ export const siteConfig = {
     email: "erwindoppelganger@gmail.com",
     roblox: "https://devforum.roblox.com/u/athar_adv/summary",
     github: "https://github.com/athar-adv",
+    youtube: "https://youtube.com/@athar_adv"
   },
   aboutMe:
     `

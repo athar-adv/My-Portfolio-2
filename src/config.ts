@@ -1,92 +1,94 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: "athar_adv",
+  title: "Open Source & Indie Developer",
+  description: "My portfolio & cv!",
+  accentColor: "#7afc00",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "erwindoppelganger@gmail.com",
+    roblox: "https://devforum.roblox.com/u/athar_adv/summary",
+    github: "https://github.com/athar-adv",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    `
+    I am mostly a game developer, making small projects with intent on quality and performance.
+    I design my products to run as well on most devices as possible, because i know the feeling when a product doesnt work well! :V
+    However, you will also see me doing other kinds of projects such as language design, websites, applications and even tooling.
+
+    I have alot of open source work, particularly on Roblox, that have a ton of users!
+    `,
+  skills: ["Luau", "Typescript", "Rust", "C++", "Node.js", "Godot", "Roblox", "VSC"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Roblox/athar-adv/Jexplorer",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "An extremely feature-packed, better-performing and production-ready Explorer plugin alternative for Roblox Studio.",
+      link: "https://devforum.roblox.com/t/jexplorer-the-first-production-ready-explorer-plugin-made-with-jecs/3788801",
+      skills: ["Luau", "Roblox", "PluginAPI", "Creating Documentation"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Roblox/athar-adv/SimpleComplete",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A simple-to-use & feature-packed scripting plugin for Roblox Studio, complete with features such as auto imports, linting, and more.",
+      link: "https://devforum.roblox.com/t/v24-simplecomplete-all-scripting-plugins-in-1-more/3565169",
+      skills: ["Luau", "Roblox", "PluginAPI", "Creating Documentation"],
     },
     {
-      name: "ExtensionKit",
+      name: "Roblox/athar-adv/UniPlugin",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A simple Plugin wrapper to simplify inter-Plugin communication and sharing of data.",
+      link: "https://devforum.roblox.com/t/uniplugin-plugins-unified-a-simple-plugin-wrapper-that-provides-inter-plugin-importexport-semantics-for-public-plugin-apis/4475722",
+      skills: ["Luau", "Roblox", "PluginAPI", "Creating Documentation"],
+    },
+    {
+      name: "Roblox/athar-adv/SimplerZone",
+      description:
+        "An insanely performant yet simple and flexible spatial query abstraction module for Roblox, designed for scaled usage.",
+      link: "https://devforum.roblox.com/t/simplerzone-fast-simple-spatial-zone-module/4408994",
+      skills: ["Luau", "Roblox", "Geometry", "Creating Documentation"],
+    },
+    {
+      name: "Roblox/athar-adv/ReplicatedRegistry2",
+      description:
+        "A very simple registry module to make data sharing between server and clients easy.",
+      link: "https://devforum.roblox.com/t/replicatedregistry2-insanely-simple-and-easy-2-way-server-client-replicated-table-registry/4074705",
+      skills: ["Luau", "Roblox", "Networking", "Creating Documentation"]
+    },
+    {
+      name: "Cargo/athar-adv/CheesyScript3",
+      description:
+        "A simple Rust-based language compiler & virtual machine i made for fun",
+      link: "https://github.com/athar-adv/CheesyScript3",
+      skills: ["Cargo", "Rust", "Language Design"]
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Flixal Creative",
+      title: "UI/UX Designer",
+      dateRange: "Jan 2024 -> Mar 2024",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Created UI serving 2 games for 20m players.",
+        "Improved user retention by 20%",
+        "Learned how to design good UX for UI",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "BannerRock Studios",
+      title: "Lead Developer",
+      dateRange: "Nov 2025 -> Now",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Prototyped and tested multiple games, however none fully released.",
+        "Set up secure backends and scalable codebases",
+        "Learned how to make an actual game",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
+      school: "Havent graduated high school, not much yet.",
+      degree: ".",
+      dateRange: ".",
+      achievements: [],
     },
   ],
 };

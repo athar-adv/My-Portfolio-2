@@ -19,9 +19,9 @@ import { siteConfig } from "../config";
       </div>
 
       <div class="lg:col-span-8 space-y-8">
-        <p class="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-600 whitespace-pre-wrap">
-          {siteConfig.aboutMe}
-        </p>
+        {siteConfig.aboutMe.split('\n\n').map((para) => (
+          <p class="text-lg sm:text-xl md:text-2xl leading-normal text-gray-600 mb-4">{para}</p>
+        ))}
 
         <div class="pt-4">
           <div class="flex flex-wrap gap-3">

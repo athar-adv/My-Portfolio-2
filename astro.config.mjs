@@ -1,6 +1,12 @@
-import { defineConfig } from 'astro/config'
+// @ts-check
+import { defineConfig } from "astro/config";
+import tailwindcss from "@tailwindcss/vite";
 
+// https://astro.build/config
 export default defineConfig({
-  site: 'https://athar-adv.github.io',
+  vite: {
+    plugins: [tailwindcss()],
+  },
+  site: "https://athar-adv.github.io",
   base: "/My-Portfolio-2"
-})
+});

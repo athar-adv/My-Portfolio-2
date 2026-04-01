@@ -16,6 +16,9 @@ export const siteConfig = {
     However, you will also see me doing other kinds of projects such as language design, websites, applications and even tooling.
 
     I have alot of open source work, particularly on Roblox, that have a ton of users!
+
+    I have 3 years of experience of being a developer (in general), starting in around early 2023.
+    I hope to improve more in the coming years!
     `,
   skills: ["Luau", "Typescript", "Rust", "C++", "Node.js", "Godot", "Roblox", "VSC"],
   projects: [

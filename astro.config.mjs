@@ -8,5 +8,5 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   site: "https://athar-adv.github.io",
-  base: "/My-Portfolio-2"
+  base: "/portfolio"
 });
